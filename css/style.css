@@ -118,7 +118,7 @@ header ul li a.active {
   transition: all 0.5s;
 }
 
-.content a {
+.content a:hover {
   background: #5C1B7F;
   color: #fff;
 }
