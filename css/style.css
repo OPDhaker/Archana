@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  overflow-y: hidden;
 }
 
 section {
@@ -128,6 +127,7 @@ header ul li a.active {
   /* max-width: 400px; */
   height: 600px;
   width: 600px;
+  overflow-y: hidden;
   animation: animate 5s linear infinite;
   /* background: #000; */
 }
