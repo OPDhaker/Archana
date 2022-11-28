@@ -115,6 +115,12 @@ header ul li a.active {
   font-weight: 500;
   text-decoration: none;
   box-shadow: o 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+}
+
+.content a {
+  background: #5C1B7F;
+  color: #fff;
 }
 
 .imgBx img {
