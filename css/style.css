@@ -125,8 +125,8 @@ header ul li a.active {
 
 .imgBx img {
   /* max-width: 400px; */
-  height: 600px;
-  width: 600px;
+  height: 400px;
+  width: 400px;
   overflow-y: hidden;
   animation: animate 5s linear infinite;
   /* background: #000; */
