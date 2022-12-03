@@ -136,3 +136,57 @@ header ul li a.active {
   0%, 100% {transform: translateY(50px);}
   50% {transform: translateY(100px);}
 }
+
+.sci {
+  position: absolute;
+  right: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #5C1B7F;
+  box-shadow: 0 0 50px #5C1B7F;
+  transition: all 0.3s ease-in-out;
+}
+
+.sci li a:hover {
+  transform: scale(1.1);
+  background: #5C1B7F;
+  color: #fff;
+  box-shadow: 0 0 50px #fff;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  color: #5C1B7F;
+  font-weight: 700;
+}
+
+.copyright i {
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    position: relative;
+    width: calc(100% - 20px);
+  }
+}
